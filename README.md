@@ -2,11 +2,11 @@
 
 ## Overview of the Analysis
 
-The purpose of the this analysis was to conduct a meta-analysis of Amazon reviews produced as part of the Amazon Vine program. The Amazon Vine program works by having select, compensated members of Amazon's community of reviewers rate sample products. The data of this project was analyzed to determine if any bias exists toward favorable reviews from the paid Vine members.
+The purpose of this analysis was to conduct a meta-analysis of Amazon reviews produced as part of the Amazon Vine program. The Amazon Vine program works by having select, compensated members of Amazon's community of reviewers rate sample products. The data of this project was analyzed to determine if any bias exists toward favorable reviews from the paid Vine members.
 
 ### I chose a dataset from the Toys product category.
 
-To begin the analysis, I created a database with Amazon RDS an connected the server in pgAdmin. I ran a query in pgAdmin to create the customers_table, products_table, review_id_table, and vine_table.
+To begin the analysis, I created a database with Amazon RDS and connected the server in pgAdmin. I ran a query in pgAdmin to create the customers_table, products_table, review_id_table, and vine_table.
 
 I then used Google Colab Notebook to extract the Toys dataset and created a new dataframe.
 ![Toys DF](https://github.com/jstearns1988/Amazon_Vine_Analysis/blob/main/Resources/Toys%20DF.png?raw=true)
